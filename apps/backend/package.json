@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "build": "tsc",
+    "dev": "node init && tsx src/server.ts",
+    "build": "node init && tsc",
     "test": "vitest run",
     "test:rpc-pool": "vitest run tests/stellar.test.ts",
     "format": "prettier --write \"src/**/*.{ts}\" \"tests/**/*.{ts}\"",

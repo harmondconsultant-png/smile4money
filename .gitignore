@@ -1,13 +1,11 @@
 /target
-.env
 **/test_snapshots/
 node_modules/
 apps/frontend/node_modules/
-.vscode/
 .kiro/
 *.log
 npm-debug.log*
 .DS_Store
-.env.local
 .env.*.local
 apps/backend/data/
+config.bat
